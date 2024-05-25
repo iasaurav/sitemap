@@ -3,7 +3,7 @@ const urls=['facebook.com/iasaurav','instagram.com/ia_aurav','twitter.com/ia_aur
   
   
 $.each(urls, function(j, data) {
-var ul_dat = ['<a href="https://'+urls[j]+'">'+urls[j]+'</a></br>'];
+var ul_dat = ['<li><a href="https://'+urls[j]+'">'+urls[j]+'</a></li>'];
             $("#ioplsnzn").append(ul_dat);
   
      });
